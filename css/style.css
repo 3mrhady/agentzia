@@ -1,0 +1,46 @@
+.navbar-nav {
+    
+        MARGIN-LEFT: 698PX;
+}
+
+.form-inline {
+   
+    MARGIN-RIGHT: 124PX;
+}
+
+.btn-outline-success {
+    color: #28CC8B;
+    border-color: #28CC8B;
+}
+
+.navbar-brand {
+   
+    MARGIN-LEFT: 111PX;
+}
+
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #28CC8B;
+    border-color: #28CC8B;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.bg {
+    position: absolute;
+}
+.background {
+    
+    background-image: url(../images/bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.vctrimg{
+    float: right;
+    margin-top: 71px;
+    
+}
