@@ -1,46 +1,139 @@
-.navbar-nav {
-    
-        MARGIN-LEFT: 698PX;
-}
-
-.form-inline {
-   
-    MARGIN-RIGHT: 124PX;
-}
-
 .btn-outline-success {
-    color: #28CC8B;
-    border-color: #28CC8B;
+  color: #28CC8B;
+  border-color: #28CC8B;
 }
-
-.navbar-brand {
-   
-    MARGIN-LEFT: 111PX;
-}
-
 
 .btn-outline-success:hover {
-    color: #fff;
-    background-color: #28CC8B;
-    border-color: #28CC8B;
+  color: #fff;
+  background-color: #28CC8B;
+  border-color: #28CC8B;
 }
 
 .bg-light {
-    background-color: transparent!important;
+  background-color: transparent !important;
 }
 
 .bg {
-    position: absolute;
-}
-.background {
-    
-    background-image: url(../images/bg.png);
-    background-position: right;
-    background-repeat: no-repeat;
+  position: absolute;
 }
 
-.vctrimg{
-    float: right;
-    margin-top: 71px;
-    
+#body {
+  background-image: url(../images/bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
+
+#header {
+  margin-top: 100px;
+}
+
+#nav-bar #navbarSupportedContent {
+  margin-left: 500px
+}
+
+#play {
+  margin-left: 23px;
+}
+
+#play img {
+  margin-right: 19px;
+}
+
+#logos {
+  margin-top: 50px;
+  width: 524px;
+}
+
+h5{
+  color: #9E9EB6;
+}
+
+#services {
+margin-top: 50px;
+background-image: url(../images/bg-services.png);
+background-position: left;
+background-repeat: no-repeat;
+
+}
+.card-cus {
+
+
+}
+.row-pad{
+      margin-bottom: 62px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28CC8B;
+    border-color: #28CC8B;
+
+  }
+
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #15A76D;
+    border-color: #15A76D;
+
+  }
+
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+      color: #fff;
+      background-color: #28CC8B;
+      border-color: #15A76D;
+    }
+
+
+  .h4 {
+    color : #585FF6 ;
+  }
+
+  .cardshadow{
+    transition: all 0.5s;
+  }
+
+  .cardshadow:hover{
+    box-shadow: 0 1rem 3rem rgba(210, 212, 255, 1)!important;
+    z-index: 10;
+    transition: all 0.5s;
+  }
+  .txt-center {
+
+     text-align: center;
+  }
+  #about-margin {
+
+        margin-top: 77px;
+  }
+  .text-center {
+ text-align: center;
+
+  }
+
+  #process {
+    margin-top: 66px;
+  }
+
+  #btn-center {
+ text-align: center;
+  }
+  #plane{
+    margin-top: 33px;
+  }
+  #switch {
+    width: 244px;
+    height: 70px;
+    background-color: #ECEEFD ;
+    border: 0.5px solid #d0d0d0;
+    border-radius: 100px;
+    padding: 9px;
+  }
+
+  #switch2{
+    width: 110px;
+    height: 50px;
+    background-color: #28CC8B ;
+    border: 0.5px solid #d0d0d0;
+    border-radius: 100px;
+    padding: 1px;
+  }
