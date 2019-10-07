@@ -18,9 +18,12 @@
 }
 
 #body {
-  background-image: url(../images/bg.png);
-  background-position: right;
-  background-repeat: no-repeat;
+  @font-face {
+  src: url("fonts/Rubik-Regular.ttf");
+  src: url("fonts/Rubik-Regular.ttf");
+
+  }
+
 }
 
 #header {
@@ -28,7 +31,7 @@
 }
 
 #nav-bar #navbarSupportedContent {
-  margin-left: 500px
+  margin-left: 20px
 }
 
 #play {
@@ -41,7 +44,7 @@
 
 #logos {
   margin-top: 50px;
-  width: 524px;
+  width: 100%;
 }
 
 h5 {
@@ -49,7 +52,7 @@ h5 {
 }
 
 #services {
-  margin-top: 50px;
+  margin-top: 126px;
   background-image: url(../images/bg-services.png);
   background-position: left;
   background-repeat: no-repeat;
@@ -95,6 +98,7 @@ h5 {
 
 .txt-center {
   text-align: center;
+  margin-bottom: 45px;
 }
 
 #about-margin {
@@ -111,6 +115,8 @@ h5 {
 
 #btn-center {
   text-align: center;
+  margin-top: 47px;
+  margin-bottom: 56px;
 }
 
 #plane {
@@ -127,6 +133,7 @@ h5 {
   text-align: right;
   position: relative;
   margin: auto;
+  margin-bottom: 57px;
 }
 
 #switch2 {
@@ -141,18 +148,6 @@ h5 {
   top: 10px;
 }
 
-#switch3 {
-  width: 110px;
-  height: 42px;
-  background-color: #28CC8B;
-  border: 0.5px solid #d0d0d0;
-  border-radius: 100px;
-  text-align: center;
-  position: absolute;
-  top: 9px;
-  padding-top: 6px;
-  left: 369px;
-}
 
 #switch2 p {
   margin-top: 10px;
@@ -186,6 +181,7 @@ h5 {
   color: #ffffff;
   text-align: center;
   border-radius: 5px;
+      margin-bottom: 10px;
 }
 
 .card1 h4, .card2 h4 {
@@ -204,6 +200,7 @@ h5 {
   border: 0.5px solid #d0d0d0;
   border-radius: 5px;
   text-align: center;
+      margin-bottom: 10px;
 }
 
 .card1:hover, .card2:hover {
@@ -224,7 +221,7 @@ h5 {
 .Test-card {
   background-color: #ffffff;
   width: 100%;
-  height: 400px;
+  height: auto;
   border: 0.5px solid #d0d0d0;
   border-radius: 5px;
   text-align: center;
@@ -238,8 +235,8 @@ h5 {
 }
 
 .Test-card h5 {
-  width: 600px;
-  padding-top: 100px;
+  width: auto;
+padding: 70px 20px 20px 10px;
   text-align: center;
   margin: auto;
 }
@@ -299,7 +296,7 @@ h5 {
   position: absolute;
   top: 62px;
   padding-top: 6px;
-  left: 369px;
+right: 11px;
 }
 
 .switch-web {
@@ -323,26 +320,160 @@ h5 {
   text-align: right;
   position: relative;
   margin: auto;
+  margin-bottom: 30px;
 }
 
-.overlay {
+.portfolio-card {
   position: relative;
 }
 
-.overlay:after {
+.portfolio-card-overlay {
   position: absolute;
-  content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background: RGBA(88, 95, 246, 0.7);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   opacity: 0;
+  transition: all 0.5s;
 }
 
-.overlay:hover:after {
-  opacity: .5;
+.portfolio-card:hover .portfolio-card-overlay {
+  opacity: 1;
+  transition: all 0.5s;
 }
 
-.color:after {
-  background-color: #585FF6;
+.footer {
+  background-color: #644EEE;
+  text-align: center;
+  position: relative;
+  margin-top: 61px;
+
+    overflow: hidden;
+}
+
+.logofooter {
+  top: 95px;
+  left: 0;
+}
+
+.h6 {
+  color: #ffffff;
+  padding: 10px 10px 10px 0px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.bgfooter {
+  position: absolute;
+}
+
+.footer-txt {
+
+}
+
+.copy-txt {
+  text-align: left;
+  color: #ECEEFD;
+  padding: 10px 10px 20px 0px;
+
+}
+
+hr {
+  background-color: #ECEEFD;
+}
+
+.margin1 {
+  margin-top: 45px;
+}
+
+.txt3 {
+  margin-bottom: 45px;
+}
+
+.margin5 {
+  margin-top: 66px;
+  margin-bottom: 80px;
+}
+
+#contact {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #28CC8B;
+}
+
+
+
+.imgs2 img {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.icon-margin {
+  margin-bottom: 33px;
+}
+#contact form {
+position: relative;
+
+}
+.btnsignup{
+
+  width: 107px;
+}
+.header-vctr{
+
+  width: 100%;
+}
+.vetr2 {
+    width: 100%;
+}
+.collapse .navbar-collapse{
+
+  width: 100%;
+  margin-left: 17px;
+}
+
+.footer2 {
+
+  margin-top: 45px;
+}
+
+.Test-card h6 {
+
+  margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media start */
+@media all and (max-width: 600px) {
+  #header .row {
+    flex-direction: column-reverse;
+  }
 }
