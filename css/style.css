@@ -17,14 +17,6 @@
   position: absolute;
 }
 
-#body {
-  @font-face {
-  src: url("fonts/Rubik-Regular.ttf");
-  src: url("fonts/Rubik-Regular.ttf");
-
-  }
-
-}
 
 #header {
   margin-top: 100px;
@@ -452,7 +444,9 @@ position: relative;
   margin-bottom: 45px;
 }
 
-
+body {
+  overflow-x: hidden;
+}
 
 
 
