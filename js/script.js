@@ -8,8 +8,8 @@ speed :300
   );
 
 
-  $('.animate').scrolla();
-  $('.animate').scrolla('bind');
+  AOS.init();
+
 
 
 });
